@@ -167,9 +167,8 @@ Implement a ‘pastevents’ command which is similar to the actual history comm
 Note :
 
 - DO NOT store a command in pastevents if it is the exactly same as the previously entered command.
-- Store only valid commands (do not store erroneous commands).
 - Store the arguments along with the command
-- Do NOT store the pastevents command in pastevents.
+- Do NOT store the pastevents command in pastevents. (i.e. except pastevents, pastevents purge, pastevents execute \<index\> ,every command must be stored eg: (warp -), (sleep 5 ; pastevents) etc.)
 
 **pastevents purge**
 
