@@ -27,7 +27,11 @@
     {% endif %}
   
     <script src="{{ '/assets/js/just-the-docs.js' | relative_url }}"></script>
-  
+
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+      </script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     {% for file in site.static_files %}
