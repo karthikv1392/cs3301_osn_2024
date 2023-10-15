@@ -10,6 +10,12 @@ nav_order: 3
 
 <!-- ## Operating Systems and Networks, Monsoon 2023 -->
 
+## Deadline: 11:59pm 10 November 2023
+
+## GitHub Classroom
+
+Welcome to the final mini-project of the course! Follow [this link](https://classroom.github.com/a/JH3nieSp) to accept the mini-project. You will then be assigned a private repository on GitHub. This is where you will be working on the mini project. All relevant instructions regarding this project can be found below.
+
 # xv-6 Revisited:
 
 ## 1. Modified Priority Based Scheduler in xv-6. [30 Marks]
@@ -24,13 +30,16 @@ There are two types of priorities.
 The **RBI** (Recent Behaviour Index) of a process measures its recent behavior and is used to adjust its dynamic priority. It is a weighted sum of three factors: *Running Time (RTime), Sleeping Time (STime), and Waiting Time (WTime)*. The default value of **RBI** is 25.
 
 - Definition of the variables:
-    - $RTime$: The total time the process has been running since it was last scheduled.
-    - $STime$: The total time the process has spent sleeping (i.e., blocked and not using CPU time) since it was last scheduled.
-    - $WTime$: The total time the process has spent in the ready queue waiting to be scheduled.
-
-    - $RBI = max\bigg(Int\bigg(\dfrac{3*RTime - STime - WTime}{RTime + WTime + STime + 1} * 50\bigg), 0\bigg)$
+  
+    - $$RTime$$ : The total time the process has been running since it was last scheduled.
     
-    - $DP = \min\left(SP + RBI, 100\right)$
+    - $$STime$$: The total time the process has spent sleeping (i.e., blocked and not using CPU time) since it was last scheduled.
+    
+    - $$WTime$$: The total time the process has spent in the ready queue waiting to be scheduled.
+    
+    - $$RBI = max\bigg(Int\bigg(\dfrac{3*RTime - STime - WTime}{RTime + WTime + STime + 1} * 50\bigg), 0\bigg)$$
+    
+    - $$DP = \min\left(SP + RBI, 100\right)$$
 
 - Use *Dynamic Priority (DP)* to schedule processes.
 
@@ -271,3 +280,11 @@ Parlour Closed
 
 ## Report [10 marks]
 - Submit a report consisting of concise answers to all the questions described in each specification.
+
+# Guidelines:
+1. Do not change the basic file structure given on Github Classroom.
+2. No deadline extensions will be granted.
+
+**Do NOT take codes from seniors or your batch mates, by any chance. We will extensively evaluate cheating scenarios along with the previous few year’s submissions.**
+
+**Viva will be conducted during the evaluations, related to your code and also the logic/concept involved. If you’re unable to answer them, you’ll get no marks for that feature/topic that you’ve implemented.**
