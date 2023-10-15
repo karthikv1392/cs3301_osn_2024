@@ -24,7 +24,7 @@ Implement a non-preemptive priority-based scheduler that selects the process wit
 
 There are two types of priorities.
 
-- The **Static Priority of a process** (SP) can be in the range $[0,100]$, a smaller value will represent higher priority. Set the default priority of a process as $50$.
+- The **Static Priority of a process** (SP) can be in the range $$[0,100]$$, a smaller value will represent higher priority. Set the default priority of a process as $$50$$.
 - The **Dynamic Priority** (DP) of a process depends on its Static Priority and RBI (recent behaviour index).
 
 The **RBI** (Recent Behaviour Index) of a process measures its recent behavior and is used to adjust its dynamic priority. It is a weighted sum of three factors: *Running Time (RTime), Sleeping Time (STime), and Waiting Time (WTime)*. The default value of **RBI** is 25.
