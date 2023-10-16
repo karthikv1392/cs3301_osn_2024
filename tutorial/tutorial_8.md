@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tutorial 8 : Copy on Write and Concurrency
+title: Tutorial 8 - Copy on Write and Concurrency
 permalink: /tutorial/tutorial-8
 parent: Tutorials
 nav_order: 8
