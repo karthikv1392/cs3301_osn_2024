@@ -90,6 +90,7 @@ You have been given the task to simulate the operation of a small cafe. The cafe
 - If a customer arrives at time `t`, they place the order at time `t`, and the coffee starts getting prepared at time `t+1`.
 - If a customer arrives at time `t`, and they have tolerance time `tol` => they collect their order only if it gets done on or before `t + tol`.
 - Once an order is completed, the customer picks it up and leaves instantaneously.
+- If a customer was already waiting, once a barista finishes their previous order, say at time `t`, they can start making the order of the waiting customer at time `t+1`.
 - The cafe has infinite seating capacity. 
 
 Your simulation should utilize multi-threading concepts and avoid potential issues like deadlocks and busy waiting. Implement the problem using semaphores and mutex locks to ensure thread safety. In your report, provide implementation details and address the given follow-up questions. Make sure to colour code your output using the specified colours. 
@@ -119,7 +120,7 @@ Espresso 3
 Cappuccino 10
 1 Cappuccino 0 15
 2 Espresso 3 6
-3 Espresso 3 3
+3 Espresso 3 5
 ```
 
 Output:
@@ -135,15 +136,17 @@ Customer 3 orders an Espresso
 Barista 2 begins preparing the order of customer 2 at 4 second(s)
 Barista 2 completes the order of customer 2 at 7 second(s)
 Customer 2 leaves with their order at 7 second(s)
-Customer 3 leaves without their order at 7 second(s)
+Barista 2 begins preparing the order of customer 3 at 8 second(s)
+Customer 3 leaves without their order at 9 second(s)
 Barista 1 completes the order of customer 1 at 11 second(s)
+Barista 2 completes the order of customer 2 at 11 second(s)
 Customer 1 leaves with their order at 11 second(s)
 
 1 coffee wasted
 ```
 
 
-#### Questions:
+#### Questions
 1. **Waiting Time:** Calculate the average time a customer spends waiting for their coffee. Determine if this is more than (and how much) if the cafe had infinite baristas. Coffee prep time is not part of waiting time.
 2. **Coffee Wastage:** Determine how many coffees are wasted. Print the number of coffees wasted after the simulation ends.
 
