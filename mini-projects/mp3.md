@@ -267,6 +267,7 @@ Machine 2 starts preparing ice cream 2 of customer 1 at 4 second(s)
 Machine 1 completes preparing ice cream 1 of customer 1 at 5 seconds(s)
 Machine 1 has stopped working at 7 second(s)
 Machine 2 completes preparing ice cream 2 of customer 1 at 8 seconds(s)
+Customer 1 has collected their order(s) and left at 8 second(s)
 Machine 2 has stopped working at 10 second(s)
 Customer 2 was not serviced due to unavailability of machines
 Parlour Closed
