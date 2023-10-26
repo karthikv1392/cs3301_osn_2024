@@ -12,6 +12,8 @@ _Simply put_ -  implement a simple network (or rather, a distributed) file syste
 <br>
 [Image](https://www.researchgate.net/figure/The-overview-of-the-Hadoop-Distributed-File-System-HDFS_fig4_348387085)
 
+_Deadline_: 11:59PM, 19th November, 2023
+
 ## Github Classroom
 We will use GitHub classroom for the projects. The instructions for registering your team are given below. Please read all the instructions before proceeding.
 
