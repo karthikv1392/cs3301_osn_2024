@@ -20,7 +20,7 @@ Welcome to the final mini-project of the course! Follow [this link](https://clas
 
 ## 1. Modified Priority Based Scheduler in xv-6. [30 Marks]
 
-Implement a non-preemptive priority-based scheduler that selects the process with the highest priority for execution. In case two or more processes have the same priority, we use the number of times the process has been scheduled to break the tie. If the tie remains, use the start-time of the process to break the tie(processes with lower start times should be scheduled further).
+Implement a preemptive priority-based scheduler that selects the process with the highest priority for execution. In case two or more processes have the same priority, we use the number of times the process has been scheduled to break the tie. If the tie remains, use the start-time of the process to break the tie(processes with lower start times should be scheduled further).
 
 There are two types of priorities.
 
