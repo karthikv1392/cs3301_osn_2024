@@ -15,4 +15,4 @@ RAID and RAID Levels - [Download](https://karthikv1392.github.io/cs3301_osn/slid
 
 ## Suggested Reading
 1. Chapter 37 [OSTEP Chapter 37: Hard Disks](https://pages.cs.wisc.edu/~remzi/OSTEP/file-disks.pdf)  
-2. Chapter 39 [OSTEP Chapter 37: RAIDs](https://pages.cs.wisc.edu/~remzi/OSTEP/file-raid.pdf)
+2. Chapter 39 [OSTEP Chapter 38: RAIDs](https://pages.cs.wisc.edu/~remzi/OSTEP/file-raid.pdf)
