@@ -11,4 +11,4 @@ Files and Directories - [Download](https://karthikv1392.github.io/cs3301_osn/sli
 
 ## Suggested Reading
 
-2. Chapter 38 [OSTEP Chapter 39: Files and Directories](https://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf)
+1. Chapter 39 [OSTEP Chapter 39: Files and Directories](https://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf)
