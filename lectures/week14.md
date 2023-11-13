@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Week 14 - Files and File System
-permalink: /lectures/week-13
+permalink: /lectures/week-14
 parent: Lectures
 nav_order: 14
 ---
