@@ -11,6 +11,8 @@ Networks: Top Down - [Download](https://karthikv1392.github.io/cs3301_osn/slides
 
 Networks: Full lecture - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_Lfull_Network_full.pdf)
 
+Special credits to Rohan S for compiling all the lectures into one
+
 ## OS: Revision
 OS Run Down - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L26_OS_full.pdf)
 
