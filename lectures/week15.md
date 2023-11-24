@@ -8,6 +8,7 @@ nav_order: 15
 
 ## Networks: Revision
 Networks: Top Down - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L25_Networks_full.pdf)
+
 Networks: Full lecture - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_Lfull_Network_full.pdf)
 
 ## OS: Revision
