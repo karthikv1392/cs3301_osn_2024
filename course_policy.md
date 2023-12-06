@@ -46,7 +46,6 @@ However, please do mention what tools and how they have been used in the submiss
 | Mid-term Quiz   | 15%       |
 | Quizzes  | 10%       |
 | 3 mini projects  | 30%       |
-| Course Project | 10%       |
-| Class activities/bonus | 5%      |
+| Course Project | 15%       |
 
 *Note:* The course instructor reserves the right to make minor modifications to the above distribution based on the progress of the courses
