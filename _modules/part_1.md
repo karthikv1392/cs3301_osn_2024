@@ -7,7 +7,7 @@ Aug 1
 
 Aug 5
 : [Process Abstraction and Process API](#)
-**Assignment 0 release**{: .label .label-red }
+: **Assignment 0 release**{: .label .label-red }
 
 Aug 8
 : **Mechanism**{: .label .label-purple } [Limited Direct Execution](#)
