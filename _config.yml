@@ -18,10 +18,10 @@ tagline: Course website of CS3.301 Operating Systems and Networks
 description: This is the website of the course offered by IIIT Hyderabad
 author: Karthik Vaidhyanathann
 baseurl: # the subpath of your site, e.g. /blog
-url: 'https://karthikv1392.github.io' # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://karthikv1392.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
-favicon_ico: '/assets/images/favicon.png'
-favitype: 'image/png'
+favicon_ico: "/assets/images/favicon.png"
+favitype: "image/png"
 
 # Theme settings
 remote_theme: just-the-docs/just-the-docs@v0.4.0.rc3
@@ -31,10 +31,10 @@ heading_anchors: true
 permalink: pretty
 aux_links:
   Karthik Vaidhyanathann:
-    - 'https://karthikvaidhyanathan.com'
+    - "https://karthikvaidhyanathan.com"
   Moodle:
-    - 'https://courses.iiit.ac.in'
-footer_content: Copyright &copy; 2023 Karthik Vaidhyanathan. Distributed by an <a href="https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt">MIT license.</a>
+    - "https://courses.iiit.ac.in"
+footer_content: Copyright &copy; 2024 Karthik Vaidhyanathan. Distributed by an <a href="https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt">MIT license.</a>
 
 # Collections for website data
 collections:
@@ -45,23 +45,23 @@ collections:
 # Default layouts for each collection type
 defaults:
   - scope:
-      path: ''
+      path: ""
       type: staffers
     values:
       layout: staffer
-      subpath: '/assets/images/'
+      subpath: "/assets/images/"
   - scope:
-      path: ''
+      path: ""
       type: modules
     values:
       layout: module
   - scope:
-      path: ''
+      path: ""
       type: schedules
     values:
       layout: schedule
   - scope:
-      path: ''
+      path: ""
       type: announcements
     values:
       layout: announcement
