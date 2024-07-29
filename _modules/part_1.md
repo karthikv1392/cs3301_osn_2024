@@ -6,7 +6,7 @@ Aug 1
 : [Introducction and Course Overview](#)
 
 Aug 3
-: ** Tutorial 1**{: .label .label-green }
+: ** Tutorial 1**{: .label .label-blue }
 
 Aug 5
 : [Process Abstraction and Process API](#)
@@ -20,7 +20,7 @@ Aug 9
 
 Aug 10
 : **Miniproject 1 release** {: .label .label-red }
-: **Tutorial 2** {: .label .label-green }
+: **Tutorial 2** {: .label .label-blue }
 
 Aug 12
 : **Policy**{: .label .label-purple } [Scheduling Part 1](#)
