@@ -20,7 +20,7 @@ Aug 9
 
 Aug 10
 : **Miniproject 1 release** {: .label .label-red }
-: **Tutorial 2**{: .label .label-red }
+: **Tutorial 2**{: .label .label-green }
 
 Aug 12
 : **Policy**{: .label .label-purple } [Scheduling Part 1](#)
