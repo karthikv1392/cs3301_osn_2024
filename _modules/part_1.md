@@ -19,7 +19,7 @@ Aug 9
 : **Assignment 0 deadline**{: .label .label-red }
 
 Aug 10
-: **Miniproject 1 release** {: .label .label-red }
+: **Miniproject1 release**{: .label .label-red }
 : **Tutorial 2**{: .label .label-green }
 
 Aug 12
