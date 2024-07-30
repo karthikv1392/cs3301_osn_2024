@@ -20,19 +20,19 @@ Aug 9
 
 Aug 10
 : **Miniproject 1 release** {: .label .label-red }
-: **Tutorial 2** {: .label .label-blue }
+: **Tutorial 2**{: .label .label-red }
 
 Aug 12
 : **Policy**{: .label .label-purple } [Scheduling Part 1](#)
 
-Aug 19
+Aug 16
 : **Policy**{: .label .label-purple } **Networks**{: .label .label-blue } [Scheduling Part 2 and Network Communication](#)
 
-Aug 22
+Aug 19
 : **Networks**{: .label .label-blue } [Networking Layer and Sockets](#)
+
+Aug 22
+: **Networks**{: .label .label-blue } [Transport Layer](#)
 
 Aug 26
 : **Quiz 1**{: .label .label-purple } [Quiz 1: Includes everything covered until previous lecture](#)
-
-Aug 29
-: **Networks**{: .label .label-blue } [Transport Layer](#)

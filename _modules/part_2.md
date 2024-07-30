@@ -2,14 +2,17 @@
 title: Memory Virtualization and Application Layer
 ---
 
-Sep 2
+Aug 29
 : [Introduction to Memory Virtualization](#)
 
-Sep 5
+Sep 2
 : [Dynamic Relocation and Segmentation](#)
 
-Sep 9
+Sep 5
 : [Paging and TLB](#)
 
-Sep 12
+Sep 9
 : [Smaller Page Tables](#)
+
+Sep 12
+: [Paging Mechanisms and Policies](#)
