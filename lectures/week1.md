@@ -7,12 +7,15 @@ nav_order: 1
 ---
 
 ## Introduction and Course Overview
-Course Overview Slides - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L01_intro.pdf)
+
+Course Overview Slides - [Download](#)
 
 ## Process Virtualization
-Process Abstraction and API - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L02_Process_API.pdf)
+
+Process Abstraction and API - [Download](#)
 
 ## Suggested Reading
+
 1. [OSTEP Chapter 2 - Introduction to Operating systems](https://pages.cs.wisc.edu/~remzi/OSTEP/intro.pdf)
 2. [OSTEP Chapter 4 - The Abstraction the Process](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf)
 3. [OSTEP Chapter 5 - Interlude: Process API](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf)
