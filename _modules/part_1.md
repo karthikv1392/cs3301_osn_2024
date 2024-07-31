@@ -6,11 +6,11 @@ Aug 1
 : [Introducction and Course Overview](#)
 
 Aug 3
-: ** Tutorial 1**{: .label .label-blue }
+: **Tutorial 1**{: .label .label-green }
+: **Assignment 0 release**{: .label .label-red }
 
 Aug 5
 : [Process Abstraction and Process API](#)
-: **Assignment 0 release**{: .label .label-red }
 
 Aug 8
 : **Mechanism**{: .label .label-purple } [Limited Direct Execution](#)
