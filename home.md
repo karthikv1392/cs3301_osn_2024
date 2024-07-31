@@ -8,17 +8,6 @@ description: >-
 
 # Home
 
-{:.no_toc}
-
-## Table of contents
-
-{: .no_toc .text-delta }
-
-1. TOC
-   {:toc}
-
----
-
 ## About
 
 This course will provide an overview of the principles and foundations of modern operating systems and networking principles. The course is structured into three parts where each part focusses on different aspects of the operating systems as well as the networking.
