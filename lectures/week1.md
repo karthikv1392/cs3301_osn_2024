@@ -10,10 +10,6 @@ nav_order: 1
 
 Course Overview Slides - [Download](#)
 
-## Process Virtualization
-
-Process Abstraction and API - [Download](#)
-
 ## Suggested Reading
 
 1. [OSTEP Chapter 2 - Introduction to Operating systems](https://pages.cs.wisc.edu/~remzi/OSTEP/intro.pdf)

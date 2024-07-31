@@ -12,4 +12,4 @@ Nov 18
 : [OS Run Down](#)
 
 Nov 19
-: **TFinal Project Deadline**{: .label .label-green }
+: **Final Project Deadline**{: .label .label-red }
