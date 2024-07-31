@@ -15,7 +15,7 @@ This course is designed in such a manner to help learners get the essence of pri
 
 ## Zero Tolerance on Plagiarism
 
-This course requires student to submit assignments, participate in in-class activities, give mid and final exams, work with groups on projects and so on. Any forms of cheating or plagiarism will result in a score of "0" for projects, assignments or exams. Egregious cases will result in a grade of "F" for the course.
+This course requires student to submit assignments, participate in in-class activities, give mid and final exams, work with groups on projects and so on. **Any forms of cheating or plagiarism will result in a score of 0** for projects, assignments or exams. Egregious cases will result in a **grade of F** for the course.
 
 ## Use of AI tools
 
