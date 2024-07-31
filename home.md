@@ -25,11 +25,11 @@ This course will provide an overview of the principles and foundations of modern
 
 ## Lecture hours
 
-The lectures will be in-person and will held on every [Monday and Thursday 10:00 AM to 11:30 AM](schedule.md) in Room no: TBD. The lecture materials (slides, lecture notes if any and links to supporting resources) can be accessed [here](lectures.md).
+The lectures will be in-person and will held on every [Monday and Thursday 10:0 AM to 11:30 AM](schedule.md) in Room no: H-105 (Expect for the first lecture which will be on H-205). The lecture materials (slides, lecture notes if any and links to supporting resources) can be accessed [here](lectures.md).
 
 ## Office Hours
 
-Every [Friday 10:00 AM to 11:00 AM](schedule.md). Apart from this if more meetings or help is required, feel free to drop in an email to one of the [teaching assistants](https://karthikv1392.github.io/cs3301_osn/staff/)
+Every [Thursday 10:30 AM to 12:00 PM](schedule.md). Apart from this if more meetings or help is required, feel free to drop in an email to one of the [teaching assistants](https://karthikv1392.github.io/cs3301_osn/staff/)
 
 ## Resources
 
@@ -48,4 +48,4 @@ Every [Friday 10:00 AM to 11:00 AM](schedule.md). Apart from this if more meetin
 
 ## Assignments and Projects
 
-All the assignments, their grading policy will be posted here.
+All the assignments, their grading policy will be posted on this website.
