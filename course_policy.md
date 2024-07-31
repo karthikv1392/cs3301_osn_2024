@@ -44,7 +44,7 @@ However, please do mention what tools and how they have been used in the submiss
 | ------------------------- | --------- |
 | Final Exam                | 30%       |
 | Mid-term Quiz             | 15%       |
-| Quizzes                   | 5%        |
+| Quiz                      | 5%        |
 | Class Participation/Bonus | 5%        |
 | 3 mini projects           | 30%       |
 | Course Project            | 15%       |
