@@ -15,11 +15,13 @@ This course is designed in such a manner to help learners get the essence of pri
 
 ## Zero Tolerance on Plagiarism
 
-This course requires student to submit assignments, participate in in-class activities, give mid and final exams, work with groups on projects and so on. **Any forms of cheating or plagiarism will result in a score of 0** for projects, assignments or exams. Egregious cases will result in a **grade of F** for the course.
+This course requires student to submit assignments, participate in in-class activities, give mid and final exams, work with groups on projects and so on. **Any forms of cheating or plagiarism will result in a score of 0** for projects, assignments or exams. Egregious cases will result in a **grade of F** for the course. [Please check the institute policy on Academic Misconduct](https://intranet.iiit.ac.in/offices/static/files/Policy_on_Academic_Misconduct.pdf)
 
 ## Use of AI tools
 
 Students are free to use different AI tools like ChatGPT, Co-pilot, etc. for the course assignments/projects. However, please do mention what tools and how they have been used in the submission report. This would imply that the students need to **document the prompt** used and the **screenshot of the output produced** by the AI tool on the report. Remember the different demos given in the class on how sometimes these tools can mislead or provide wrong solutions. Its important to know the concept before using the tools. Tools are at the end-of-the day enablers. Today it will be ChatGPT tomorrow it will be something else but the concepts needs to be clear to leverage the different tools. Bottomline, feel free to use different tools but **use them wisely!**
+
+_Please note that the instructors reserve the right to award 0 if the use of AI tools is not appropriately documented_
 
 ## Extra Days and Soft Deadlines
 
@@ -44,7 +46,7 @@ Students are free to use different AI tools like ChatGPT, Co-pilot, etc. for the
 | Mid-term Quiz             | 15%       |
 | Quiz                      | 5%        |
 | Class Participation/Bonus | 5%        |
-| 3 mini projects           | 30%       |
+| mini projects             | 30%       |
 | Course Project            | 15%       |
 
 _Note:_ The course instructor reserves the right to make minor modifications to the above distribution based on the progress of the courses
