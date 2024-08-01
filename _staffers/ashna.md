@@ -3,11 +3,9 @@ name: Ashna Dua
 role: Teaching Assistant
 email: ashna.dua@students.iiit.ac.in
 website:
-photo: ashna.png
+photo: ashna.jpeg
 ---
 
 Let's explore software together
 
-TA Hours: 
-- Tuesday: 2:00 PM - 3:00 PM
-- Location: MT NLP, KCIS 2nd Floor
+TA Hours: TBA
