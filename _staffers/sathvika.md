@@ -6,6 +6,6 @@ website:
 photo: sathvika.jpeg
 ---
 
-Let's explore software together
+Let's explore OSN together
 
 TA Hours: TBA
