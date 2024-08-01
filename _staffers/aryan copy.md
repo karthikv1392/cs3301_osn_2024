@@ -1,9 +1,9 @@
 ---
-name: Aryan Chandramania
+name: Prakhar Singhal
 role: Teaching Assistant
-email: aryan.chandramania@research.iiit.ac.in
+email: prakhar.singhal@research.iiit.ac.in
 website:
-photo: Aryan_Chandramania.jpg
+photo: prakhar_singhal.jpg
 ---
 
 Let's explore OSN together
