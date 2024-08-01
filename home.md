@@ -18,7 +18,7 @@ The lectures will be in-person and will held on every [Monday and Thursday 10:0 
 
 ## Office Hours
 
-Every [Thursday 10:30 AM to 12:00 PM](schedule.md). Apart from this if more meetings or help is required, feel free to drop in an email to one of the [teaching assistants](https://karthikv1392.github.io/cs3301_osn/staff/)
+Every [Thursday 12:00 PM to 13:00 PM](schedule.md) (Office: SERC, Room number: 509). Apart from this if more meetings or help is required, feel free to drop in an email to one of the [teaching assistants](https://karthikv1392.github.io/cs3301_osn/staff/)
 
 ## Resources
 
