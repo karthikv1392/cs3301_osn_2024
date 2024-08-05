@@ -10,6 +10,10 @@ nav_order: 1
 
 Course Overview Slides - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L01.pdf)
 
+## Introduction to Process Virtualization
+
+Process Virtualization Introduction - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L02.pdf)
+
 ## Suggested Reading
 
 1. [OSTEP Chapter 2 - Introduction to Operating systems](https://pages.cs.wisc.edu/~remzi/OSTEP/intro.pdf)
