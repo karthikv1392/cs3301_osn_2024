@@ -8,4 +8,6 @@ photo: Ishan_Gupta.jpg
 
 Let's explore OSN together
 
-TA Hours: TBA
+TA Hours: 
+- Saturday: 15:00 - 16:00
+- Location: DSAC, KCIS 4th Floor
