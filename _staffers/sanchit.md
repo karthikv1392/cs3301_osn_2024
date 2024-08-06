@@ -8,4 +8,6 @@ photo: sanchit.png
 
 Let's explore OSN together
 
-TA Hours: TBA
+TA Hours: 
+- Monday: 17:00 - 18:00
+- Location: CVIT, KCIS 3rd Floor
