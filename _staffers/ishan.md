@@ -1,7 +1,7 @@
 ---
 name: Ishan Gupta
 role: Teaching Assistant
-email: ishan.guptaa@research.iiit.ac.in
+email: ishan.gupta@research.iiit.ac.in
 website:
 photo: Ishan_Gupta.jpg
 ---
