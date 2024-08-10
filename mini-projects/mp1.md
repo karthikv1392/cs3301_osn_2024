@@ -467,7 +467,7 @@ Lorem Ipsum
 
   
 
-************Note :************
+**Note :**
 
   
 
@@ -649,7 +649,7 @@ A call to this command will always be in the format :
 
   
 
-**seek <flags>  <search>  <target_directory>**
+**seek \<flags>  \<search>  \<target_directory>**
 
 #  Guidelines
 
