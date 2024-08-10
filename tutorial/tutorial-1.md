@@ -8,4 +8,4 @@ nav_order: 1
 
 ## Tutorial - 1 Slides
 Coming soon!
-<!-- [Download]() -->
+[Download](https://karthikv1392.github.io/cs3301_osn/slides/Tutorials/Tutorial-1.pdf)
