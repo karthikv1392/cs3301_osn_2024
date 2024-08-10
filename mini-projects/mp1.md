@@ -717,9 +717,9 @@ Takeaway  :  Do not copy, it won’t get you marks but there is a high chance fo
 
 2.  Include a [README.md](http://README.md) describing which file corresponds to what part and any assumptions that you made.  Any assumptions not written in  README.md may not be considered during manual evaluation.
 
-3.  Following is the expected directory structure for your submission :
+3. Submit modular code only.
 
-  
+4.  Following is the expected directory structure for your submission :
 
 ```
 
@@ -732,7 +732,3 @@ Takeaway  :  Do not copy, it won’t get you marks but there is a high chance fo
 └── Other files and directories
 
 ```
-
-  
-
-4.  Submit modular code only.
