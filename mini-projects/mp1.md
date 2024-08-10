@@ -683,7 +683,7 @@ A call to this command will always be in the format :
 
 15.  Segmentation faults and other crashes while your shell is running will be penalized.
 
-16.  The symbols <,  >,  >>,  &,  |,  ;  ,  - would always correspond to their special meaning and would not appear otherwise, such as in inputs to echo etc.
+16.  The symbols <,  >,  >>,  &,  \|,  ;  ,  - would always correspond to their special meaning and would not appear otherwise, such as in inputs to echo etc.
 
 17.  You are expected to implement everything except Specification  6 without using execvp.
 
