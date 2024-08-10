@@ -18,7 +18,7 @@ Before starting, make sure to read this document **completely** including **Inst
 
   
 
-In  this  Mini  Project, you will be building your own shell using C.  As the scale of code will be very large, it is ********************necessary to write modular code.  Do  NOT write monolithic code.******************** Following is the definition of what modular code should look like : your codebase must be separated in different C files based on the tasks that it is intended to perform.  Create header files to include headers from  C library.  You will be penalized heavily if your code is non modular.
+In  this  Mini  Project, you will be building your own shell using C.  As the scale of code will be very large, it is **necessary to write modular code.  Do  NOT write monolithic code.** Following is the definition of what modular code should look like : your codebase must be separated in different C files based on the tasks that it is intended to perform.  Create header files to include headers from  C library.  You will be penalized heavily if your code is non modular.
 
   
 
@@ -48,11 +48,11 @@ For easier understanding,  let’s say Part  A is worth 100 points total.  If yo
 
   
 
-******************************1st deadline :  11:59  PM  -  30  Aug,  2024******************************
+**1st deadline :  11:59  PM  -  30  Aug,  2024**
 
   
 
-******************************2nd deadline :  11:59  PM  -  13  Sep,  2024******************************
+**2nd deadline :  11:59  PM  -  13  Sep,  2024**
 
   
 
@@ -216,7 +216,7 @@ ERROR : 'sleeeep' is not a valid command
 
   
 
-************Note :************
+**Note :**
 
   
 
@@ -284,7 +284,7 @@ Handle the following cases also in  case  of flags :
     - reveal -lala <path/name>
   
 
-************Note :************
+**Note :**
 
   
 
@@ -326,7 +326,7 @@ Note  :
 
   
 
-**************************log purge**************************
+**log purge**
 
   
 
@@ -334,7 +334,7 @@ Clears all the log currently stored.  Do not store this command in the log.
 
   
 
-******************************log execute \<index>******************************
+**log execute \<index>**
 
   
 
@@ -412,7 +412,7 @@ Your shell must be able to execute the other system commands present in  Bash as
 
   
 
-************************************Foreground  Process************************************
+**Foreground  Process**
 
   
 
@@ -436,7 +436,7 @@ Time taken by the foreground process and the name of the process should be print
 
   
 
-************************************Background  Process************************************
+**Background  Process**
 
   
 
@@ -563,7 +563,7 @@ Note that by files, the text here refers to non-directory files.
 
   
 
-******************Flags :******************
+**Flags :**
 
   
 
@@ -577,7 +577,7 @@ If  -e flag is enabled but the directory does not have access permission (execut
 
   
 
-************************Argument  1 :************************
+**Argument  1 :**
 
   
 
@@ -585,7 +585,7 @@ The target that the user is looking for.  A name **without whitespace characters
 
   
 
-**********************************************Argument  2  (optional) :**********************************************
+**Argument  2  (optional) :**
 
   
 
@@ -651,423 +651,7 @@ A call to this command will always be in the format :
 
 **seek <flags>  <search>  <target_directory>**
 
-<!--   
-
-##  Part  B  :  Processes,  Files and Misc.
-
-  
-
-Note  :  Please read specification 9-11 together before attempting as one’s implementation will affect the other.  The evaluation will be done separately,  this note is just for your convenience.
-
-###  Specification  9  :  .myshrc
-The `myshrc` file is a customized shell configuration file, similar to `.bashrc`, tailored to enhance your command-line experience. It includes useful aliases and functions to streamline your workflow and improve efficiency.
-In this you need to create your own .bashrc file which will use **aliases** and **functions** 
-```jsx
-
-<JohnDoe@SYS:~> nano .myshrc
-// File Contents are given below (feel free to make edits to it coz its yours :) 
-reveall = reveal -l
-reveala = reveal -a
-home = hop ~
-mk_hop() 
-{ 
-	mkdir "$1" # Create the directory 
-	hop "$1" # Change into the directory 
-}
-// File Content Ends
-<JohnDoe@SYS:~> reveall
-// Output is same as what reveal -l usually does
-
-// assuming test dir doesnt exist
-<JohnDoe@SYS:~> mk_hop test 
-// makes test dir
-<JohnDoe@SYS:~/test> 
-
-```
-
- The task is to 
- - Create a *mk_hop* and *hop_seek* function 
- - Create *reveall* and *home* function
- 
-
-
-
-
-###  Specification  10  :  I/O  Redirection
-
-  
-
-I/O  Redirection is when you change the default input/output (which is the terminal) to another file.  This file can be used to read input into a program or to capture the output of a program.
-
-Your shell should support >,  <,  >>  (< should work with both > and >>).
-
-  
-
--  \>  :  Outputs to the filename following “>”.
-
--  \>>  :  Similar to “>” but appends instead of overwriting if the file already exists.
-
--  <  :  Reads input from the filename following “<”.
-
-  
-
-Your shell should handle these cases appropriately:
-
-  
-
--  An error message “No such input file found!” should be displayed if the input file does not exist.
-
--  The output file should be created (with permissions 0644)  if it does not already exist in both > and >>.
-
--  In  case the output file already exists, it should be overwritten in  case  of  > and appended to in  case  of  >>.
-
-  
-
-You are NOT required to handle multiple inputs and outputs.
-
-  
-
-```jsx
-
-<JohnDoe@SYS:~> echo "Hello world" > newfile.txt
-
-<JohnDoe@SYS:~> cat newfile.txt
-
-Hello world
-
-<JohnDoe@SYS:~> wc < a.txt
-
-1 2 12 # There can be extra spaces
-
-<JohnDoe@SYS:~> echo "Lorem ipsum" > newfile.txt
-
-<JohnDoe@SYS:~> cat newfile.txt
-
-Lorem ipsum
-
-<JohnDoe@SYS:~> echo "dolor sit amet" >> newfile.txt
-
-Lorem ipsum
-
-dolor sit amet
-
-<JohnDoe@SYS:~> wc < newfile.txt > a.txt
-
-<JohnDoe@SYS:~> cat a.txt
-
-2 5 27 # There can be extra spaces
-
-```
-
-  
-
-###  Specification  11  :  Pipes
-
-  
-
-Pipes are used to pass information between commands.  It takes the output from command on left and passes it as standard input to the command on right.  Your shell should support any number of pipes.
-
-  
-
-************Note :************
-
-  
-
--  Return error “Invalid use of pipe”,  if there is nothing to the left or to the right of a pipe (”|”).
-
--  Run all the commands sequentially from left to right if pipes are present.
-
-  
-
-```jsx
-
-<JohnDoe@SYS:~> echo "Lorem Ipsum" | wc
-
-1 2 12 # extra spaces can be present
-
-<JohnDoe@SYS:~> echo "Lorem Ipsum" | wc | sed 's/ //g'
-
-1212
-
-```
-
-  
-
-###  Specification  12  :  Redirection along with pipes
-
-  
-
-This specification requires you to be able to run I/O redirection along with pipes.  It should support any number of pipes (but not multiple inputs and outputs from  I/O redirection).  In short, you are required to make sure that Specification  8 and Specification  9 work when given as input together.
-
-  
-
-```jsx
-
-<JohnDoe@SYS:~> cat a.txt
-
-Lorem Ipsum
-
-<JohnDoe@SYS:~> cat < a.txt | wc | sed 's/ //g' | cat > b.txt
-
-<JohnDoe@SYS:~> cat b.txt
-
-1212
-
-```
-
-  
-
-###  Specification  13  : activities
-
-  
-
-This specification requires you to print a list of all the processes currently running that were spawned by your shell in lexicographic order.  This list should contain the following information about all processes :
-
-  
-
--  Command  Name
-
-- pid
-
-- state : running or stopped
-
-  
-
-```jsx
-
-<JohnDoe@SYS:~> activities
-
-221 : emacs new.txt - Running
-
-430 : vim - Stopped
-
-620 : gedit - Stopped
-
-```
-
-  
-
-Format  of an entry should be :
-
-**[pid]  :  [command name]  -  [State]**
-
-  
-
-###  Specification  14  :  Signals
-
-  
-
-************************ping <pid>  <signal_number>************************
-
-  
-
-ping command is used to send signals to processes.  Take the pid of a process and send a signal to it which corresponds to the signal number (which is provided as an argument).  Print error “No such process found”,  if process with given pid does not exist.  You should take signal number’s modulo with  32 before checking which signal it belongs to (assuming x86/ARM machine).  Check man page for signal for an exhaustive list of all signals present.
-
-  
-
-```jsx
-
-<JohnDoe@SYS:~> activities
-
-221 : emacs new.txt - Running
-
-430 : vim - Stopped
-
-620 : gedit - Stopped
-
-<JohnDoe@SYS:~> ping 221 9 # 9 is for SIGKILL
-
-Sent signal 9 to process with pid 221
-
-<JohnDoe@SYS:~> activities
-
-430 : vim - Stopped
-
-620 : gedit - Stopped
-
-<JohnDoe@SYS:~> ping 430 41
-
-Sent signal 9 to process with pid 430
-
-<JohnDoe@SYS:~> activities
-
-620 : gedit - Stopped
-
-```
-
-  
-
-Following  3 commands are direct keyboard input where Ctrl is Control key on keyboard (or it’s equivalent).
-
-  
-
-**Ctrl  -  C**
-
-  
-
-Interrupt any currently running foreground process by sending it the SIGINT signal.  It has no effect if no foreground process is currently running.
-
-  
-
-****************Ctrl  -  D****************
-
-  
-
-Log out of your shell (after killing all processes)  while having no effect on the actual terminal.
-
-  
-
-********Ctrl  -  Z********
-
-  
-
-Push the (if any) running foreground process to the background and change it’s state from  “Running” to “Stopped”.  It has no effect on the shell if no foreground process is running.
-
-  
-
-###  Specification  15  : fg and bg
-
-  
-
-******fg <pid>******
-
-  
-
-Brings the running or stopped background process with corresponding pid to foreground, handing it the control of terminal.  Print  “No such process found”,  if no process with given pid exists.
-
-  
-
-```jsx
-
-<JohnDoe@SYS:~> activities
-
-620 : gedit - Stopped
-
-<JohnDoe@SYS:~> fg 620
-
-# brings gedit [620] to foreground and change it's state to Running
-
-```
-
-  
-
-****************bg <pid>****************
-
-  
-
-Changes the state of a stopped background process to running (in the background).  If a process with given pid does not exist, print “No such process found” to the terminal.
-
-  
-
-```jsx
-
-<JohnDoe@SYS:~> activities
-
-620 : gedit - Stopped
-
-<JohnDoe@SYS:~> bg 620
-
-# Changes [620] gedit's state to Running (in the background).
-
-```
-
-  
-
-###  Specification  16  :  Neonate  [Yet to be confirmed]
-
-  
-
-Command  :  **neonate -n [time_arg]**
-
-  
-
-The command prints the Process-ID  of the most recently created process on the system (you are not allowed to use system programs),  this pid will be printed every [time_arg] seconds until the key 'x' is pressed.
-
-  
-
-```jsx
-
-<JohnDoe@SYS:~> neonate -n 4
-
-# A line containing the pid should be printed
-
-# every 4 seconds until the user
-
-# presses the key: 'x'.
-
-11810
-
-11811
-
-11811
-
-11812
-
-11813 # key 'x' is pressed at this moment terminating the printing
-
-```
-
-  
-
-##  Part  C  :  Networking
-
-  
-## wttr
-###  Specification  17  : iMan
-
-  
-
-iMan fetches man pages from the internet using sockets and outputs it to the terminal (stdout).  In  this  case, you are required to use the website : http://man.he.net/ to get the man pages.
-
-  
-
-You  do not need to handle “man page not found” error separately and you can print the html tags as well if there are any.
-
-Do not print the header received during the GET request.  (Check example given below for exact output).
-
-  
-
-************************iMan <command_name>************************
-
-  
-
-<command_name> is the name of the man page that you want to fetch.
-
-  
-
-This should fetch the man page for the given command from http://man.he.net/,  if the page does not exist, you can continue to print the response from the page.
-
-  
-
-```c
-
-<JohnDoe@SYS:~> iMan sleep
-
-# expected output here : https://stagb.in/d7oqbst
-
-<JohnDoe@SYS:~> iMan invalid_command
-
-# expected output here : https://stagb.in/cph6aza
-
-```
-
-  
-
-If there are more than 1 argument, iMan considers only the first argument and ignores the rest.  For example :
-
-  
-
-```jsx
-
-"iMan sleep" is the same as "iMan sleep extra"
-
-``` -->
-
-  
-
 #  Guidelines
-
-  
 
 1.  The submission must be done in  C.  No other languages are allowed.
 
@@ -1110,11 +694,8 @@ uname, hostname, signal, waitpid, getpid, kill, execvp, strtok, fork, getopt, re
 Also check out termios.h functions like tcgetattr(), tcsetattr() for terminal setting (raw mode/ cooked mode).
 
 Refer to man pages on internet to learn of all possible invocations/variants of these general commands. Pay specific attention to the various data types used within these commands and explore the various header files needed to use these commands.
-
     
 #  Plagiarism  Policy
-
-  
 
 **Do  NOT take code from your seniors or batchmates as we will do extensively evaluation for any plagiarism.**  Moss will be run against the previous few year’s submissions as well, and any case  of  **plagiarism will be punished heavily according to the course policy.**
 
@@ -1132,7 +713,7 @@ Takeaway  :  Do not copy, it won’t get you marks but there is a high chance fo
 
   
 
-1.  Make a ******************makefile****************** for compiling all your code (with appropriate flags and linker options).  This makefile is expected to generate an **executable “a.out” on running the “make”** command.  Executing a.out should start your shell.
+1.  Make a **makefile** for compiling all your code (with appropriate flags and linker options).  This makefile is expected to generate an **executable “a.out” on running the “make”** command.  Executing a.out should start your shell.
 
 2.  Include a [README.md](http://README.md) describing which file corresponds to what part and any assumptions that you made.  Any assumptions not written in  README.md may not be considered during manual evaluation.
 
