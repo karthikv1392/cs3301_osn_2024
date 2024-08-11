@@ -6,8 +6,8 @@ website:
 photo: divyansh.jpeg
 ---
 
-Let's explore OSN together
+Sleeping process.
 
 TA Hours: 
-- Thursday: 15:40 - 16:40
+- Thursday: 14:00 - 15:00
 - Location: T-Hub 5th floor
