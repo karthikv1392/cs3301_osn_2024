@@ -656,7 +656,7 @@ A call to this command will always be in the format :
 
   
 
-Note  :  Please read specification 9-11 together before attempting as one’s implementation will affect the other.  The evaluation will be done separately,  this note is just for your convenience.
+Note  :  Please read specification 10-12 together before attempting as one’s implementation will affect the other.  The evaluation will be done separately,  this note is just for your convenience.
 
 ###  Specification  9  :  .myshrc [4]
 The `myshrc` file is a customized shell configuration file, similar to `.bashrc`, tailored to enhance your command-line experience. It includes useful aliases and functions to streamline your workflow and improve efficiency.
