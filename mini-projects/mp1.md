@@ -10,9 +10,11 @@ nav_order: 2
 
 Before starting, make sure to read this document **completely** including **Instructions,  Guidelines,  Plagiarism  Policy and Submission  Guidelines** before asking any doubts as they might already be covered here.  Additionally, you are recommended to read these to avoid unnecessary penalties.
 
-**Note that Part B of the Mini Project will be released on 17th August, 2024 and the GitHub Classroom link for this Mini Project will also be released along with it.**
+**Part B of the Mini Project has been released on 17th August, 2024. The Github classroom link will be released by Monday due to multiple students reporting their issues late.**
 
-  
+**Doubts Document Links for Mini Project 1:**
+- [https://hackmd.io/@osn-monsoon-2024/HJsVBWSq0](Questions)
+- [https://hackmd.io/@osn-monsoon-2024/rkbISZH5C](Answers)
 
 ##  Instructions
 
