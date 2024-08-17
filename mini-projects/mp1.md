@@ -772,7 +772,7 @@ Pipes are used to pass information between commands.  It takes the output from c
 
   
 
--  Return error “Invalid use of pipe”,  if there is nothing to the left or to the right of a pipe (”|”).
+-  Return error “Invalid use of pipe”,  if there is nothing to the left or to the right of a pipe (”\|”).
 
 -  Run all the commands sequentially from left to right if pipes are present.
 
@@ -930,7 +930,7 @@ Push the (if any) running foreground process to the background and change it’s
 
   
 
-**fg <pid>**
+**fg \<pid>**
 
   
 
@@ -952,7 +952,7 @@ Brings the running or stopped background process with corresponding pid to foreg
 
   
 
-**bg <pid>**
+**bg \<pid>**
 
   
 
@@ -1027,11 +1027,11 @@ Do not print the header received during the GET request.  (Check example given b
 
   
 
-**iMan <command_name>**
+**iMan \<command_name>**
 
   
 
-<command_name> is the name of the man page that you want to fetch.
+\<command_name> is the name of the man page that you want to fetch.
 
   
 
@@ -1039,7 +1039,7 @@ This should fetch the man page for the given command from http://man.he.net/,  i
 
   
 
-```c
+```
 
 <JohnDoe@SYS:~> iMan sleep
 
