@@ -10,11 +10,11 @@ nav_order: 2
 
 Before starting, make sure to read this document **completely** including **Instructions,  Guidelines,  Plagiarism  Policy and Submission  Guidelines** before asking any doubts as they might already be covered here.  Additionally, you are recommended to read these to avoid unnecessary penalties.
 
-**Part B of the Mini Project has been released on 17th August, 2024. The Github classroom link will be released by Monday due to multiple students reporting their issues late.**
+**Part B of the Mini Project has been released on 17th August, 2024. The Github classroom link for Mini Project 1 is available [here](https://classroom.github.com/a/Qiz9msrr). Please note that there are 2 seperate branches available in the repository and you are expected to use the mid branch for Mid submission and the final branch for the final submission of the Mini Project.**
 
 **Doubts Document Links for Mini Project 1:**
-- [https://hackmd.io/@osn-monsoon-2024/HJsVBWSq0](Questions)
-- [https://hackmd.io/@osn-monsoon-2024/rkbISZH5C](Answers)
+- [Questions](https://hackmd.io/@osn-monsoon-2024/HJsVBWSq0)
+- [Answers](https://hackmd.io/@osn-monsoon-2024/rkbISZH5C)
 
 ##  Instructions
 
@@ -22,11 +22,7 @@ Before starting, make sure to read this document **completely** including **Inst
 
 In  this  Mini  Project, you will be building your own shell using C.  As the scale of code will be very large, it is **necessary to write modular code.  Do  NOT write monolithic code.** Following is the definition of what modular code should look like : your codebase must be separated in different C files based on the tasks that it is intended to perform.  Create header files to include headers from  C library.  You will be penalized heavily if your code is non modular.
 
-  
-
-It is highly recommended to start this mini project early to complete it in time as it will be quite intensive.  There are 2 parts to this assignment,  with each of them having their own deadlines before the single hard deadline.  You are required to submit your code 2 times in the duration of  this assignment with the last deadline being a hard deadline.
-
-  
+It is highly recommended to start this mini project early to complete it in time as it will be quite intensive.  There are 2 parts to this assignment,  with each of them having their own deadlines before the single hard deadline.  You are required to submit your code 2 times in the duration of  this assignment with the last deadline being a hard deadline.  
 
 -  1st deadline :  Only part A is required to be submitted
 
@@ -35,8 +31,6 @@ It is highly recommended to start this mini project early to complete it in time
 -  2nd deadline :  Both  Parts  A and B must be submitted.
 
 50% points of  Part  A and 100% points of  Part  B will be given based on this submission.
-
-  
 
 For easier understanding,  let’s say Part  A is worth 100 points total.  If your submission is worth 20 points from  Part  A during 1st deadline, and you submit it completely during 2nd deadline (100 points), you will get a total of  (20/2)  +  (100/2)  =  60 points.  If you submit Part  A completely in both deadlines, you will get full marks.  For  Part  B, whatever you submit during 2nd deadline will be used to award you points.
 
@@ -48,15 +42,11 @@ For easier understanding,  let’s say Part  A is worth 100 points total.  If yo
 
 ##  Deadlines
 
-  
+**1st deadline :  11:59  PM  -  30  Aug,  2024** : Mid branch
 
-**1st deadline :  11:59  PM  -  30  Aug,  2024**
+**2nd deadline :  11:59  PM  -  13  Sep,  2024** : Final branch
 
-  
-
-**2nd deadline :  11:59  PM  -  13  Sep,  2024**
-
-  
+**Making a commit to the Mid Branch after 1st deadline will use up late days**
 
 ##  Part  A  :  Basic  System  Calls
 
