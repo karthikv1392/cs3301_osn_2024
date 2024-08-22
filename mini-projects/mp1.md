@@ -788,7 +788,7 @@ Pipes are used to pass information between commands.  It takes the output from c
 
   
 
-This specification requires you to be able to run I/O redirection along with pipes.  It should support any number of pipes (but not multiple inputs and outputs from  I/O redirection).  In short, you are required to make sure that Specification  8 and Specification  9 work when given as input together.
+This specification requires you to be able to run I/O redirection along with pipes.  It should support any number of pipes (but not multiple inputs and outputs from  I/O redirection).  In short, you are required to make sure that Specification 10 and Specification 11 work when given as input together.
 
   
 
