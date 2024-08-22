@@ -314,9 +314,9 @@ Note  :
 
 - Commands separated by ; or & are supposed to be stored in a single line.
 
-- Erroneous commands are also stored.
+- Erroneous commands can also be stored (this is not a strict requirement, and you can choose to not store them). Please mention whatever you choose in README accordingly.
 
--  Do  NOT store the log command in log. In cases where multiple commands separated by ; or & contain a log command, you aren't expected to store them either.
+-  Do  NOT store the log command in log. In cases where multiple commands separated by ; or & contain a log command, you are expected to not store the entire command string. For eg. in case of `hop .. ; echo "OSN" ; log`, the log will not be updated at all since log is present in the command string.
 
 
 **log purge**
@@ -385,8 +385,6 @@ sleep 5
 
 echo "Lorem ipsum"
 
-reveal test
-
 <JohnDoe@SYS:~> log purge
 
 <JohnDoe@SYS:~> log
@@ -405,7 +403,9 @@ sleep 5 ; reveal
 
 # error mesage
 
-<JohnDoe@SYS:~> log 
+<JohnDoe@SYS:~> sleep 5 ; echo "Lorem Ipsum" ; log
+
+<JohnDoe@SYS:~> log
 
 sleep 5 ; reveal 
 
