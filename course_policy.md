@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Course Policy
-nav_order: 7
+nav_order: 8
 description: The detailed policy of the course along with the mark distribution is listed here
 ---
 
