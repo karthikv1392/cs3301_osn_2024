@@ -300,7 +300,7 @@ Handle the following cases also in  case  of flags :
 
   
 
-Implement a ‘log’ command which is similar to the actual history command in bash.  The  default number of commands it should store and output is 15  (max).  You must overwrite the oldest commands if more than the set number of commands are entered.  You should track the commands across all sessions and not just one.
+Implement a ‘log’ command which is similar to the actual history command in bash.  The  default number of commands it should store and output is 15  (max).  You must overwrite the oldest commands if more than the set number of commands are entered.  You should track the commands across all sessions and not just one. The commands should be printed from oldest to recent moving top to down (Refer example below).
 
   
 
@@ -310,13 +310,14 @@ Note  :
 
 -  DO  NOT store a command in log if it is the exactly same as the previously entered command.
 
--  Store only valid commands (do not store erroneous commands).
-
 -  Store the arguments along with the command
 
--  Do  NOT store the log command in log.
+- Commands separated by ; or & are supposed to be stored in a single line.
 
-  
+- Erroneous commands are also stored.
+
+-  Do  NOT store the log command in log. In cases where multiple commands separated by ; or & contain a log command, you aren't expected to store them either.
+
 
 **log purge**
 
@@ -330,7 +331,7 @@ Clears all the log currently stored.  Do not store this command in the log.
 
   
 
-Execute the command at <index> position in log (ordered from most recent to oldest).  If it’s the most recent command, don’t store it, otherwise store the command that was executed in log.
+Execute the command at <index> position in log (ordered from most recent to oldest).  **You are not required to store the command corresponding to this index in the log**, but you are free to do so if you want.
 
   
 
@@ -392,9 +393,25 @@ reveal test
 
 <JohnDoe@SYS:~>     //outputs nothing since log has been purged
 
-```
+<JohnDoe@SYS:~> sleep 5 ; reveal
 
-  
+# output
+
+<JohnDoe@SYS:~> log 
+
+sleep 5 ; reveal
+
+<JohnDoe@SYS:~> sleep 5 ; revealll
+
+# error mesage
+
+<JohnDoe@SYS:~> log 
+
+sleep 5 ; reveal 
+
+sleep 5 ; revealll   
+
+```
 
 ###  Specification  6  :  System commands [12]
 
@@ -657,9 +674,13 @@ In this you need to create your own .bashrc file which will use **aliases** and 
 
 <JohnDoe@SYS:~> nano .myshrc
 // File Contents are given below (feel free to make edits to it coz its yours :) 
-reveall = reveal -l
-reveala = reveal -a
-home = hop ~
+//# You can create aliases without the alias keyword
+reveall = reveal -l 
+//OR
+// You can create aliases with a predefined keyword say 'alias' as well (Whatever suits you! Note: You aren't expected to handle both ways either way is fine)
+alias reveala = reveal -a
+alias home = hop ~
+//Functions
 mk_hop() 
 { 
 	mkdir "$1" # Create the directory 
