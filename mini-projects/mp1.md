@@ -484,7 +484,8 @@ Lorem Ipsum
 
 -  You should be able to run multiple background processes.
 
--  Whenever background process finishes, display message to user (after user enters any command, display all ended between last command run and this). **This should come autonomously after the bg process has finished without any interaction with user.**
+-  Whenever the background process finishes, display a message to the user **autonomously, without any futher interaction required by the user.**
+
 -  Print process name along with pid when background process ends.  Also mention if the process ended normally or abnormally.
 
   
