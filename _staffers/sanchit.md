@@ -6,7 +6,7 @@ website:
 photo: sanchit.png
 ---
 
-Let's explore OSN together
+F1 Football and Netflix it is.
 
 TA Hours: 
 - Monday: 17:00 - 18:00
