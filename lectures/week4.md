@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Week 4 - Networking: Sockets and Transport Layer and Memory Virtualization
+title: Week 4 - Networking - Sockets and Transport Layer and Memory Virtualization
 permalink: /lectures/week-4
 parent: Lectures
 nav_order: 4

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Week 5 - Memory Virtualization: Mechanisms and Policies
+title: Week 5 - Memory Virtualization - Mechanisms and Policies
 permalink: /lectures/week-5
 parent: Lectures
 nav_order: 5
