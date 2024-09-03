@@ -13,3 +13,7 @@ Sockets and Transport Layer - [Download](https://karthikv1392.github.io/cs3301_o
 ## TCP Layer and Introduction to Memory Virtualization
 
 TCP Explained and Inro Memory Virtualization - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L08.pdf)
+
+## Suggested Reading
+
+1. [OSTEP Chapter 13 - The Abstraction: Address Space](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf)
