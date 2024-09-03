@@ -668,25 +668,55 @@ A call to this command will always be in the format :
 
 Note  :  Please read specification 10-12 together before attempting as one’s implementation will affect the other.  The evaluation will be done separately,  this note is just for your convenience.
 
-###  Specification  9  :  .myshrc [4]
+###  Specification  9  :  .myshrc [2 + 2 [BONUS]]
 The `myshrc` file is a customized shell configuration file, similar to `.bashrc`, tailored to enhance your command-line experience. It includes useful aliases and functions to streamline your workflow and improve efficiency.
-In this you need to create your own .bashrc file which will use **aliases** and **functions** 
+In this you need to create your own .bashrc file which will use **aliases** and **functions**.
+
+In this case, implementing *any* alias (not just the ones mentioned in the example below) will award you with **2 points**.
+All you need to do is to map a single word alias to some command. You are not expected to handle aliases mapping to any custom functions. You do not need to worry about multi-word aliases.
+
+Additionally, implementing the two functions mentioned in the example below (*mk_hop* and *hop_seek*) will award you with **2 BONUS points** (this is entirely **optional**).
+
 ```jsx
 
 <JohnDoe@SYS:~> nano .myshrc
 // File Contents are given below (feel free to make edits to it coz its yours :) 
 //# You can create aliases without the alias keyword
 reveall = reveal -l 
+
 //OR
-// You can create aliases with a predefined keyword say 'alias' as well (Whatever suits you! Note: You aren't expected to handle both ways either way is fine)
+// You can create aliases with a predefined keyword, say, 'alias' as well (Whatever suits you! Note: You aren't expected to handle both ways; either way is fine.)
 alias reveala = reveal -a
 alias home = hop ~
-//Functions
+
+// Functions (BONUS)
 mk_hop() 
 { 
 	mkdir "$1" # Create the directory 
 	hop "$1" # Change into the directory 
 }
+
+hop_seek()
+{
+    hop "$1" # Hop into this directory
+    seek "$1" # search for files/directories with the same name as the directory you just hopped into.
+}
+
+// OR
+// You can create functions with a predefined keyword, say, 'func' as well (Whatever suits you! Note: You aren't expected to handle both ways; either way is fine.)
+func mk_hop()
+{
+	mkdir "$1" # Create the directory
+	hop "$1" # Change into the directory
+}
+
+func hop_seek()
+{
+    hop "$1" # Hop into this directory
+    seek "$1" # search for files/directories with the same name as the directory you just hopped into.
+}
+
+
 // File Content Ends
 <JohnDoe@SYS:~> reveall
 // Output is same as what reveal -l usually does
@@ -697,13 +727,6 @@ mk_hop()
 <JohnDoe@SYS:~/test> 
 
 ```
-
- The task is to 
- - Create a *mk_hop* and *hop_seek* function 
- - Create *reveall* and *home* function
- 
-
-
 
 
 ###  Specification  10  :  I/O  Redirection [10]
