@@ -10,6 +10,8 @@ nav_order: 5
 
 Base and bounds approach and Segmentation - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L09.pdf)
 
+## Approaches to Memory Virtualization - Paging
+
 Introduction to Paging - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L10.pdf)
 
 
@@ -18,3 +20,4 @@ Introduction to Paging - [Download](https://karthikv1392.github.io/cs3301_osn/sl
 1. [OSTEP Chapter 14 - Memory API](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-api.pdf)
 2. [OSTEP Chapter 15 - Address Translation](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-mechanism.pdf)
 3. [OSTEP Chapter 16 - Segmentation](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-segmentation.pdf)
+4. [OSTEP Chapter 17 - Paging](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-page.pdf)
