@@ -821,10 +821,6 @@ Pipes are used to pass information between commands.  It takes the output from c
 
 1 2 12 # extra spaces can be present
 
-<JohnDoe@SYS:~> echo "Lorem Ipsum" | wc | sed 's/ //g'
-
-1212
-
 ```
 
   
@@ -843,11 +839,11 @@ This specification requires you to be able to run I/O redirection along with pip
 
 Lorem Ipsum
 
-<JohnDoe@SYS:~> cat < a.txt | wc | sed 's/ //g' | cat > b.txt
+<JohnDoe@SYS:~> cat < a.txt | wc | cat > b.txt
 
 <JohnDoe@SYS:~> cat b.txt
 
-1212
+1 2 12  # note that extra spaces can be present
 
 ```
 
@@ -1081,16 +1077,6 @@ This should fetch the man page for the given command from http://man.he.net/,  i
 <JohnDoe@SYS:~> iMan sleep
 
 # expected output here :
-
-HTTP/1.0 200 OK
-Date: Sat, 17 Aug 2024 12:09:18 GMT
-Server: Apache/2.4.41 (Ubuntu)
-Last-Modified: Sat, 17 Aug 2024 00:00:01 GMT
-Content-Length: 2082
-Content-Type: text/html
-
-
-
 sleep
 
 
@@ -1165,14 +1151,6 @@ REPORTING BUGS
 
 
 # expected output here : 
-
-HTTP/1.0 200 OK
-Date: Sat, 17 Aug 2024 12:10:43 GMT
-Server: Apache/2.4.41 (Ubuntu)
-Last-Modified: Sat, 17 Aug 2024 00:00:01 GMT
-Content-Length: 548
-Content-Type: text/html
-
 
 
 invalid_command
