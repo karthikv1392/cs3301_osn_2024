@@ -591,7 +591,7 @@ If  -e flag is enabled but the directory does not have access permission (execut
 
   
 
-The target that the user is looking for.  A name **without whitespace characters** will be given here.  You have to look for a file/folder with the exact name as this.
+The target that the user is looking for.  A name **without whitespace characters** will be given here.  You have to look for a file/folder with the exact name, or one which contains this target as a prefix in its name.
 
   
 
@@ -919,7 +919,7 @@ Sent signal 9 to process with pid 221
 
 <JohnDoe@SYS:~> ping 430 47
 
-Sent signal 15 to process with pid 430 		# 15 is for SIGSTP
+Sent signal 15 to process with pid 430 		# 15 is for SIGTERM
 
 <JohnDoe@SYS:~> activities
 
