@@ -12,7 +12,7 @@ nav_order: 3
 
 ## GitHub Classroom
 
-Follow [this link](https://classroom.github.com/a/TxpE5E6z) to accept the assignment. You will then be assigned a private repository on GitHub. This is where you will be working on the mini project. All relevant instructions regarding this project can be found below.
+Follow [this link](https://classroom.github.com/a/JsZCPDRN) to accept the assignment. You will then be assigned a private repository on GitHub. This is where you will be working on the mini project. All relevant instructions regarding this project can be found below.
 
 ## XV6
 
