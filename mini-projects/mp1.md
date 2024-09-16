@@ -781,7 +781,7 @@ Hello world
 
 Lorem ipsum
 
-<JohnDoe@SYS:~> echo "dolor sit amet" >> newfile.txt
+<JohnDoe@SYS:~> echo "dolor sit amet" >> newfile.txt; cat newfile.txt
 
 Lorem ipsum
 
