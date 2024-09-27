@@ -12,6 +12,11 @@ _Simply put_ -  implement a simple network (or rather, a distributed) file syste
 <br>
 [Image](https://www.researchgate.net/figure/The-overview-of-the-Hadoop-Distributed-File-System-HDFS_fig4_348387085)
 
+## Deadline : 19 November 2024, 11:59 PM IST
+## Doubts document links for Course Project 
+- [Questions](https://hackmd.io/ImqHdAE0S_WoMpqP5p_01w)
+- [Answers](https://hackmd.io/KRlfkY79TOyJUgc5IneZWA)
+
 ## Github Classroom
 <!-- We will use GitHub classroom for the projects. The instructions for registering your team are given below. Please read all the instructions before proceeding.
 
