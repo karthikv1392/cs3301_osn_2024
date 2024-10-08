@@ -35,7 +35,7 @@ Here `1 << 15 = 32678`, which corresponds to the `open` syscall and the pid of t
 #### 2. Wake me up when my timer ends \[13 points\]
 In this specification you'll add a feature to xv6 that periodically alerts a process as it uses CPU time. This might be useful for compute-bound processes that want to limit how much CPU time they chew up, or for processes that want to compute but also want to take some periodic action. More generally, you'll be implementing a primitive form of user-level interrupt/fault handlers like a `SIGCHILD` handler.   
 
-You should add a new `sigalarm(interval, handler)` system call. If an application calls `alarm(n, fn)` , then after every n  "ticks" of CPU time that the program consumes, the kernel will cause application function `fn`  to be called. When `fn`  returns, the application will resume where it left off.  
+You should add a new `sigalarm(interval, handler)` system call. If an application calls `sigalarm(n, fn)` , then after every n  "ticks" of CPU time that the program consumes, the kernel will cause application function `fn`  to be called. When `fn`  returns, the application will resume where it left off.  
 
 Add another system call `sigreturn()`, to reset the process state to before the `handler` was called. This system call needs to be made at the end of the handler so the process can resume where it left off.  
 
