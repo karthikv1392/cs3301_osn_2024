@@ -24,4 +24,4 @@ Introduction to Condition Variables - [Download](https://karthikv1392.github.io/
 ## Extra Reading
 
 1. The Therac-25: 30 Years Later  - [Link](https://www.computer.org/csdl/magazine/co/2017/11/mco2017110008/13rRUxAStVR)
-2. [Chapter 29: Lock-based Concurrent Data Structures] (https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks-usage.pdf)
+2. [Chapter 29: Lock-based Concurrent Data Structures](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks-usage.pdf)
