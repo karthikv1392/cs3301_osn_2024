@@ -14,6 +14,10 @@ nav_order: 4
 
 Follow [this link](https://classroom.github.com/a/k72s6R8f) to accept the assignment. **Please check if your team number exists already, and if yes, then join your team.** **Else, please create a team by using the same _pair number_ from the pairs sheet [here](https://docs.google.com/spreadsheets/d/1kemHts7NwC0LR9tbv80IOFt7RuRRmq7dD18cW21LRXo/edit?gid=0#gid=0)**. You will then be assigned a private repository on GitHub. This is where you will be working on the mini project. All relevant instructions regarding this project can be found below.
 
+## Doubts Document Links for Mini Project 3:
+- [Questions](https://hackmd.io/Nz7ewET-QuCM6lSsw9GIFQ)
+- [Answers](https://hackmd.io/A2a3GEGoT8qNGo1AgpqW-Q)
+
 ---
 
 ---
