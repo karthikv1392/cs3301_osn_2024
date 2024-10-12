@@ -309,7 +309,7 @@ with this hands-down report, weâ€™ll give the boss the essential insights theyâ€
 
 - Profiling runtime and memory usage for codes: [measure.sh](https://iiitaphyd-my.sharepoint.com/:u:/g/personal/ishan_gupta_research_iiit_ac_in/EZtqASWyZyVKvIs6BfsLPAcBEiBE4hYJB-nTbFlh5aSmew?e=dclqBy)
 
-**Usage: measure.sh  <executable_path>**
+**Usage: measure.sh \<executable_path\>**
 
 - Parallel merge sort: https://rachitvasudeva.medium.com/parallel-merge-sort-algorithm-e8175ab60e7
 - Parallel count sort: https://stackoverflow.com/questions/39903181/can-you-do-a-parallel-counting-sort-in-on-p-time
