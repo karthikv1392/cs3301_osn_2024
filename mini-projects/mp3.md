@@ -311,5 +311,5 @@ with this hands-down report, weâ€™ll give the boss the essential insights theyâ€
 
 **Usage: measure.sh \<executable_path\>**
 
-- Parallel merge sort: https://rachitvasudeva.medium.com/parallel-merge-sort-algorithm-e8175ab60e7
-- Parallel count sort: https://stackoverflow.com/questions/39903181/can-you-do-a-parallel-counting-sort-in-on-p-time
+- [Parallel merge sort](https://rachitvasudeva.medium.com/parallel-merge-sort-algorithm-e8175ab60e7)
+- [Parallel count sort](https://stackoverflow.com/questions/39903181/can-you-do-a-parallel-counting-sort-in-on-p-time)
