@@ -51,7 +51,7 @@ By using COW, you’ll help LAZY Corp save memory and let our system run smoothe
 
 ## 1. LAZY Read-Write (25 marks)
 
-_**Note:** You are expected to simulate this task using the concurrency concepts you've learned in class. The goal of this question isn't to just see if you can print the times at which each event occurs; rather, you are expected to actually simulate them using threads, locks/condition variables/semaphores etc._
+_**Note:** You are expected to simulate this task **IN REAL TIME** using the concurrency concepts you've learned in class. The goal of this question isn't to just see if you can print the times at which each event occurs; rather, you are expected to actually simulate them using threads, locks/condition variables/semaphores etc._
 
 **Great job on the COW fork!** Now that you’ve implemented the Copy-On-Write fork, LAZY Corp has another exciting challenge for you. While the COW fork helped reduce memory overhead, we’re still dealing with performance issues in other parts of our operating system—especially the file manager.
 
