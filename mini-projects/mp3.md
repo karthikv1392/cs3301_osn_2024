@@ -51,6 +51,8 @@ By using COW, you’ll help LAZY Corp save memory and let our system run smoothe
 
 ## 1. LAZY Read-Write (25 marks)
 
+_**Note:** You are expected to simulate this task **IN REAL TIME** using the concurrency concepts you've learned in class. The goal of this question isn't to just see if you can print the times at which each event occurs; rather, you are expected to actually simulate them using threads, locks/condition variables/semaphores etc._
+
 **Great job on the COW fork!** Now that you’ve implemented the Copy-On-Write fork, LAZY Corp has another exciting challenge for you. While the COW fork helped reduce memory overhead, we’re still dealing with performance issues in other parts of our operating system—especially the file manager.
 
 Our file manager, **LAZY (because we are too lazy to name it anything else)**, runs on an old system with very limited resources. Speed and concurrency are desirable, but this old system struggles to handle too many users at once. However, LAZY doesn’t care—our goal is to stay efficient and relaxed, even if that means a few users might have to cancel their requests out of sheer frustration!
@@ -60,9 +62,8 @@ Your next mission is to simulate **LAZY’s behavior** under load. You’ll simu
 **Here's how LAZY works:**
 
 - Each operation (READ, WRITE, DELETE) takes some time to process.
-- There’s a limit on how many users can access the same file concurrently.
+- There’s a limit on how many users can access the same file concurrently (for example, if 1 person is writing to the file while 2 others are reading, that is to be counted as 3 concurrent accesses).
 - Users may get impatient and cancel their requests if LAZY doesn't get around to them in time.
-- LAZY can handle multiple requests, but once a file is being written to or deleted, other operations on that file are blocked until the write or delete is complete.
 
 **Your task** is to simulate this scenario, handle multiple user requests, and manage the concurrency and patience limits. Don’t worry, though—you’ll be using the same laid-back style you learned while implementing the COW fork.
 
@@ -104,9 +105,9 @@ The input ends with the word `STOP`.
 **LAZY's behavior** is defined as follows:
 
 1. **Processing requests**:
-    - LAZY waits for 1 second after a request arrive before starting to process it.
+    - LAZY waits for 1 second after a request arrives before starting to process it.
     - If LAZY can't process the request right away (due to system limitations), it will be delayed.
-    - Users cancel their requests if LAZY takes more than `T` seconds to start processing.
+    - Users cancel their requests if LAZY takes more than `T` seconds (from the time at which users send their request) to start processing.
 2. **Concurrency rules**:
     - Multiple users can **READ** a file simultaneously, even while another user is writing to it.
     - Only one user can **WRITE** to a file at a time.
@@ -114,7 +115,7 @@ The input ends with the word `STOP`.
 3. **Request handling**:
     - **READ**: The user reads the file if conditions allow.
     - **WRITE**: The user writes to the file if no other write operation is in progress.
-    - **DELETE**: The user deletes the file if it’s not being read or written to.
+    - **DELETE**: The user deletes the file if it’s not being read or written to. While the file is being deleted, no other user can read/write to the same file.
     - If the file is invalid (i.e., deleted or doesn't exist), LAZY declines the request when it attempts to process it.
 4. **Cancellation**:
     - Users cancel their requests if LAZY doesn't start processing them within `T` seconds.
@@ -218,7 +219,7 @@ Here’s the deal: we need a distributed sorting algorithm to organize all the f
 
 ### **Input Format**
 
-The input begins with an integer specifying the **total number of files**. Each file is then represented on a separate line with its attributes separated by spaces in the following order: **name**, **id**, and **timestamp**. The final Row contains the column to be used for sorting (One of [” Name”, “ID”, “Timestamp”]
+The input begins with an integer specifying the **total number of files**. Each file is then represented on a separate line with its attributes separated by spaces in the following order: **name**, **id**, and **timestamp**. The **final row** contains the column to be used for sorting (One of [”Name”, “ID”, “Timestamp”]
 
 - The timestamp should be in ISO 8601 format (`YYYY-MM-DDTHH:MM:SS`).
 - The file name can be a string of max length `128 char`

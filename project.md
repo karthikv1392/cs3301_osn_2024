@@ -18,15 +18,15 @@ _Simply put_ -  implement a simple network (or rather, a distributed) file syste
 - [Answers](https://hackmd.io/KRlfkY79TOyJUgc5IneZWA)
 
 ## Github Classroom
-<!-- We will use GitHub classroom for the projects. The instructions for registering your team are given below. Please read all the instructions before proceeding.
+We will use GitHub classroom for the projects. The instructions for registering your team are given below. Please read all the instructions before proceeding.
 
-1. One teammate has to create the team. They need to click on [this](https://classroom.github.com/a/N80U1UWm) link. This opens a page of registered teams. Your team should not exist here at this moment. The next two instructions are for the same teammate.
-2. Create a new team with only the team number allotted as the name. The team number can be found in the moodle announcement. So if your team number is 10, the team's name should be 10. Nothing more, nothing less.
+1. One teammate has to create the team. They need to click on [this](https://classroom.github.com/a/l9Jxgebc) link. This opens a page of registered teams. Your team should not exist here at this moment. The next two instructions are for the same teammate.
+2. Create a new team with only the team number allotted as the name. The team number can be found in the moodle announcement. So if your team number is 10, the team's name should be Team_10. Nothing more, nothing less.
 3. On the next screen, accept the assignment. The other members can now join this team. 
 4. The remaining members now need to click on this link. This takes you to the list of registered teams. Join your team, which should have your team number as the name.
 
-Please use the repo that gets created to work on your project. -->
-The link will be released soon.
+Please use the repo that gets created to work on your project.
+<!-- The link will be released soon. -->
 
 ## Introduction
 
