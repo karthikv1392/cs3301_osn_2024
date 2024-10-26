@@ -279,16 +279,18 @@ Attention, LAZY Corp Team Member!
 
 ### **Part 1: Distributed Sorting System Performance**
 
-1. **Execution Time Analysis**:
+1. **Implementation Analysis**:
+    - Mention why you chose a certain approach to distribute tasks across the systems and the pros/cons of said approach. For example, for distributed Merge Sort, if you've chosen to create a thread per merge operation, you have to explain why and the pros/cons of this approach. **(kindly note that this is not the only way to go about this!)**
+2. **Execution Time Analysis**:
     - Measure the **execution time** for both **Distributed Count Sort** and **Distributed Merge Sort** with a few different file counts (small, medium, and large).
     - The boss wants to know how well each sorting method scales, so log the times for just a handful of different data sizes.
-2. **Memory Usage Overview**:
+3. **Memory Usage Overview**:
     - Provide a brief assessment of the **memory usage** for each algorithm when sorting both small and large datasets.
     - This can be a short summary rather than an in-depth breakdown.
-3. **Graphs**:
+4. **Graphs**:
     - Include a **simple line graph** showing **execution time** across different file counts for each sorting algorithm.
     - Use a **bar chart** to give a quick comparison of **memory usage** for Distributed Count Sort and Distributed Merge Sort.
-4. **Summary**:
+5. **Summary**:
     - Write a brief summary of the findings, focusing on how each sorting method handles different file counts.
     - Mention any potential optimizations that could improve performance for larger datasets.
 
