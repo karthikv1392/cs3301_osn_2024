@@ -10,3 +10,7 @@ nav_order: 10
 
 Link Layer and ARP - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L19.pdf)
 
+## Network Layer
+
+Working of Network Layer - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L20.pdf)
+
