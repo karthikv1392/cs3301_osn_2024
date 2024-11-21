@@ -44,9 +44,11 @@ _Please note that the instructors reserve the right to award 0 if the use of AI 
 | ------------------------- | --------- |
 | Final Exam                | 30%       |
 | Mid-term Quiz             | 15%       |
-| Quiz                      | 5%        |
-| Class Participation/Bonus | 5%        |
-| mini projects             | 30%       |
+| Quiz 1                    | 5%        |
+| Quiz 2                    | 5%        |
+| Mini Projects             | 30%       |
 | Course Project            | 15%       |
+
+Please also note that any bonus points will be added to the final course total rather than to individual components. A student can get a maximum of 5% bonus points in the course.
 
 _Note:_ The course instructor reserves the right to make minor modifications to the above distribution based on the progress of the courses
