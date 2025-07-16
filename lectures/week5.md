@@ -8,11 +8,11 @@ nav_order: 5
 
 ## Approaches to Memory Virtualization
 
-Base and bounds approach and Segmentation - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L09.pdf)
+Base and bounds approach and Segmentation - [Download](https://karthikv1392.github.io/cs3301_osn_2024/slides/OSN_L09.pdf)
 
 ## Approaches to Memory Virtualization - Paging
 
-Introduction to Paging - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L10.pdf)
+Introduction to Paging - [Download](https://karthikv1392.github.io/cs3301_osn_2024/slides/OSN_L10.pdf)
 
 
 ## Suggested Reading
