@@ -8,9 +8,9 @@ nav_order: 2
 
 ## Process Virtualization
 
-API and Mechanisms - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L03.pdf)
+API and Mechanisms - [Download](https://karthikv1392.github.io/cs3301_osn_2024/slides/OSN_L03.pdf)
 
-Mechanisms and Policies (Part 1) - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L04.pdf)
+Mechanisms and Policies (Part 1) - [Download](https://karthikv1392.github.io/cs3301_osn_2024/slides/OSN_L04.pdf)
 
 ## Suggested Reading
 
