@@ -8,11 +8,11 @@ nav_order: 9
 
 ## Introduction to Semaphores
 
-Semaphores and Classical Concurrency Problems - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L17.pdf)
+Semaphores and Classical Concurrency Problems - [Download](https://karthikv1392.github.io/cs3301_osn_2024/slides/OSN_L17.pdf)
 
 ## Classical Concurrency Problems and Concurrency Bugs
 
-Classical Concurrency Problems - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L18.pdf)
+Classical Concurrency Problems - [Download](https://karthikv1392.github.io/cs3301_osn_2024/slides/OSN_L18.pdf)
 
 
 
