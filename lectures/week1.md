@@ -8,11 +8,11 @@ nav_order: 1
 
 ## Introduction and Course Overview
 
-Course Overview Slides - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L01.pdf)
+Course Overview Slides - [Download](https://karthikv1392.github.io/cs3301_osn_2024/slides/OSN_L01.pdf)
 
 ## Introduction to Process Virtualization
 
-Process Virtualization Introduction - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L02.pdf)
+Process Virtualization Introduction - [Download](https://karthikv1392.github.io/cs3301_osn_2024/slides/OSN_L02.pdf)
 
 ## Suggested Reading
 
