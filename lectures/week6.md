@@ -8,11 +8,11 @@ nav_order: 6
 
 ## Smaller Page Tables
 
-Memory Virtualization - Paging - Smaller Page Tables - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L11.pdf)
+Memory Virtualization - Paging - Smaller Page Tables - [Download](https://karthikv1392.github.io/cs3301_osn_2024/slides/OSN_L11.pdf)
 
 ## Paging Mechanisms and Policies
 
-Memory Virtualization - Paging - Paging Mechanisms and Policies - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L12.pdf)
+Memory Virtualization - Paging - Paging Mechanisms and Policies - [Download](https://karthikv1392.github.io/cs3301_osn_2024/slides/OSN_L12.pdf)
 
 ## Suggested Reading
 
