@@ -8,11 +8,11 @@ nav_order: 7
 
 ## Networking - Application Layer
 
-Introduction to Application Layer - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L13.pdf)
+Introduction to Application Layer - [Download](https://karthikv1392.github.io/cs3301_osn_2024/slides/OSN_L13.pdf)
 
 ## OS - Concurrency
 
-Introduction to Concurrency - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L14.pdf)
+Introduction to Concurrency - [Download](https://karthikv1392.github.io/cs3301_osn_2024/slides/OSN_L14.pdf)
 
 
 ## Suggested Reading
