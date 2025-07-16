@@ -8,11 +8,11 @@ nav_order: 8
 
 ## Introduction to Locks
 
-Locks - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L15.pdf)
+Locks - [Download](https://karthikv1392.github.io/cs3301_osn_2024/slides/OSN_L15.pdf)
 
 ## Condition Variables
 
-Introduction to Condition Variables - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L16.pdf)
+Introduction to Condition Variables - [Download](https://karthikv1392.github.io/cs3301_osn_2024/slides/OSN_L16.pdf)
 
 
 ## Suggested Reading
