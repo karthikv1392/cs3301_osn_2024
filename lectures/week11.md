@@ -8,11 +8,11 @@ nav_order: 11
 
 ## Introduction to Disks
 
-Hard disks - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L21.pdf)
+Hard disks - [Download](https://karthikv1392.github.io/cs3301_osn_2024/slides/OSN_L21.pdf)
 
 ## RAIDS
 
-Introduction to RAIDS - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L22.pdf)
+Introduction to RAIDS - [Download](https://karthikv1392.github.io/cs3301_osn_2024/slides/OSN_L22.pdf)
 
 
 ## Suggested Reading
