@@ -8,11 +8,11 @@ nav_order: 3
 
 ## Process Virtualization
 
-Policies (Round Robin and MLFQ) - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L05.pdf)
+Policies (Round Robin and MLFQ) - [Download](https://karthikv1392.github.io/cs3301_osn_2024/slides/OSN_L05.pdf)
 
 ## Introduction to Computer Networks
 
-Networking Layers - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L06.pdf)
+Networking Layers - [Download](https://karthikv1392.github.io/cs3301_osn_2024/slides/OSN_L06.pdf)
 
 ## Suggested Reading
 
