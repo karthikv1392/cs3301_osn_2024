@@ -8,5 +8,5 @@ nav_order: 13
 
 ## Complete Revision
 
-OS and Networks Run Down and Concluding Thoughts - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L26.pdf)
+OS and Networks Run Down and Concluding Thoughts - [Download](https://karthikv1392.github.io/cs3301_osn_2024/slides/OSN_L26.pdf)
 
