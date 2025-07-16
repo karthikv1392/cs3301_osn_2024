@@ -8,11 +8,11 @@ nav_order: 12
 
 ## Introduction to FileSystem
 
-Files and Directories - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L23.pdf)
+Files and Directories - [Download](https://karthikv1392.github.io/cs3301_osn_2024/slides/OSN_L23.pdf)
 
 ## File System Implementation
 
-Very simple file system implementation - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L24.pdf)
+Very simple file system implementation - [Download](https://karthikv1392.github.io/cs3301_osn_2024/slides/OSN_L24.pdf)
 
 ## Suggested Reading
 
