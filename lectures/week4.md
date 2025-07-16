@@ -8,11 +8,11 @@ nav_order: 4
 
 ## Introduction to Sockets and Transport Layer
 
-Sockets and Transport Layer - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L07.pdf)
+Sockets and Transport Layer - [Download](https://karthikv1392.github.io/cs3301_osn_2024/slides/OSN_L07.pdf)
 
 ## TCP Layer and Introduction to Memory Virtualization
 
-TCP Explained and Inro Memory Virtualization - [Download](https://karthikv1392.github.io/cs3301_osn/slides/OSN_L08.pdf)
+TCP Explained and Inro Memory Virtualization - [Download](https://karthikv1392.github.io/cs3301_osn_2024/slides/OSN_L08.pdf)
 
 ## Suggested Reading
 
